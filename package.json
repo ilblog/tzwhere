@@ -2,11 +2,12 @@
   "author": "mattbornski",
   "contributors": [
     "Alan Gutierrez <alan@prettyrobots.com> (http://github.com/bigeasy)",
-    "Philipp Fehre <philipp.fehre@googlemail.com> (http://github.com/sideshowcoder)"
+    "Philipp Fehre <philipp.fehre@googlemail.com> (http://github.com/sideshowcoder)",
+    "Ivo Lukacovic <> (http://github.com/ilblog)"
   ],
   "name": "tzwhere",
   "description": "Determine timezone from lat/long",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "directories" : {
     "lib": "lib",
@@ -32,7 +33,7 @@
   "dependencies": {
     "geolib": "1.x",
     "simplesets": "1.x",
-    "timezone": "0.x"
+    "timezone": "1.x"
   },
   "devDependencies": {
     "mocha": "1.x"
